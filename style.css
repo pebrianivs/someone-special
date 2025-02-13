@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(senayan1.jpeg);
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/*h4{
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+  color: #fff;
+}*/
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}
+
+.hbhv{
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--color);
+}
+
+.birthday{
+  max-width: 85ch;
+  line-height: 1.2;
+  padding: 1em;
+  color: var(--color);
+}
+
+.valentine{
+  max-width: 85ch;
+  line-height: 1.2;
+  padding: 1em;
+  color: var(--color);
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+/*footer{
+  background-color: var(--color);
+  color: #fff;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}*/
+
+.blank {
+  width: 100%;
+  min-height: 40vh;
+  background-color: white;
+}
+
+.blank-second {
+  width: 100%;
+  min-height: 15vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url(mrt1.jpeg);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-top: 1em; 
+}
+
+.atas {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 1em;
+  color: #fff;
+}
+
+.bawah {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff; 
+}
+
+.card > a {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(birthday.jpg);
+}
+
+.img-second {
+  background-image: url(valentine.jpg);
+}
+
+.img-third {
+  background-image: url(gamepad.jpg);
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
